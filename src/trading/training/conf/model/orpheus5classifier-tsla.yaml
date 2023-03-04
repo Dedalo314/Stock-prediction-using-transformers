@@ -1,0 +1,17 @@
+model_class: trading.models.orpheus.orpheus5classifier.Orpheus5Classifier
+d_model: 64
+nhead: 1
+max_seq_length: 5376 # same as num_values_in
+in_channels: 14
+n_layers: 1
+dim_feedforward: 256
+batch_first: true
+norm_first: false
+lr: 1e-3
+layer_norm_eps: 1e-5
+dropout: 0.1
+conv_strides: [2, 2]
+pool_strides: [2, 2]
+conv_kernel_sizes: [3, 3]
+pool_kernel_sizes: [2, 2]
+num_time_features_to_expand: 4

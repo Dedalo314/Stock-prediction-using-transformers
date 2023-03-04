@@ -1,0 +1,4 @@
+defaults:
+  - data: multivalue_date_binaryclass
+  - model: orpheus5classifier-nasdaq
+  - trainer: trainer-gpu

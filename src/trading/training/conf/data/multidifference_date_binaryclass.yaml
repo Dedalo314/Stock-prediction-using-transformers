@@ -1,0 +1,19 @@
+dataset:
+  dataset_class: "trading.datasets.multidifference_date_binary_class_dataset.MultidifferenceDateBinaryClassDataset"
+  sep: ","
+  datetime_col: Date
+  financial_values_cols: ["Volume"]
+  differential_financial_values_cols: ["Close", "Adjusted Close"]
+  target_col: Close
+  num_values_in: 730
+  num_values_to_avg: 7
+  train_input_folder: "???"
+  val_input_folder: "???"
+  test_input_folder: "???"
+train:
+  batch_size: 11
+  shuffle: true
+val:
+  batch_size: 11
+test:
+  batch_size: 11

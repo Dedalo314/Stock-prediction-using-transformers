@@ -1,0 +1,5 @@
+epochs: 10_000
+accelerator: gpu
+devices: -1
+default_root_dir: "???"
+auto_lr_find: false

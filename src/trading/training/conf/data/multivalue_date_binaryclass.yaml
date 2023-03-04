@@ -1,0 +1,18 @@
+dataset:
+  dataset_class: "trading.datasets.multivalue_date_binary_class_dataset.MultivalueDateBinaryClassDataset"
+  input_folder: "???"
+  sep: ","
+  datetime_col: Date
+  financial_values_cols: ["Close", "Adjusted Close", "Volume"]
+  target_col: Close
+  percentage_training: 0.9
+  percentage_val_of_training: 0.1
+  num_values_in: 730
+  num_values_to_avg: 7
+train:
+  batch_size: 11
+  shuffle: true
+val:
+  batch_size: 11
+test:
+  batch_size: 11

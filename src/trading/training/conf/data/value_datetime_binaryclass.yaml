@@ -1,0 +1,17 @@
+dataset:
+  dataset_class: "trading.datasets.datasets.ValueDatetimeBinaryClassDataset"
+  input_csv: "???"
+  sep: ","
+  datetime_col: time
+  value_col: close
+  percentage_training: 0.8
+  percentage_val_of_training: 0.25
+  num_values_in: 5376
+  num_values_to_avg: 64
+train:
+  batch_size: 11
+  shuffle: true
+val:
+  batch_size: 11
+test:
+  batch_size: 11
