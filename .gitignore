@@ -1,0 +1,12 @@
+Checkpoints/
+__pycache__/
+.ipynb_checkpoints/
+outputs/
+runs/
+logs/
+lightning_logs/
+*.hmtl
+notebooks/
+.python-version
+Models/
+.pytest_cache/
